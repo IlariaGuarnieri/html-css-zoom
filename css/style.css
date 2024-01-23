@@ -6,47 +6,31 @@ box-sizing: border-box;
 
 body{
   font-family: Arial, Helvetica, sans-serif;
-}
-
-main{
-  height: calc(100vh-100px);
-  overflow: auto;
-}
-
-main section{
   width: 100%;
-  height: 100vh;
-  position: relative;
+  height: 110vh;
+  background-color:#da4213;
 }
 
-section#base{
-  background-color:#1C242D;
-}
-
-section .user{
-  display: flex;
-  position: absolute;
-}
-
-
-
-/* main{
-  background-color: yellow;
-  height: calc(100vh-100px);
-  overflow: auto;
-}
-
-footer{
-  background-color: red;
-  height: 100px;
-} */
-
-/* .debug{
-  background-color: rgba(255,0, 0, 0.2)
-  border: 1px solid black; 
+p{
+  text-align: center;
+  padding: 2px;
+  color: white;
+  font-size: 10px;
+  background-color: rgba(65, 26, 206, 0.292);
+  width: 70px;
+  height: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 .container{
-  max-width: 1380px;
-  margin: 0 auto;
-} */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.user{
+  margin: 2px;
+}
