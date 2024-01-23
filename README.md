@@ -1,0 +1,1 @@
+Riproduciamo il layout come da screenshot ZOOM

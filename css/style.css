@@ -1,0 +1,52 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+  height: calc(100vh-100px);
+  overflow: auto;
+}
+
+main section{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+section#base{
+  background-color:#1C242D;
+}
+
+section .user{
+  display: flex;
+  position: absolute;
+}
+
+
+
+/* main{
+  background-color: yellow;
+  height: calc(100vh-100px);
+  overflow: auto;
+}
+
+footer{
+  background-color: red;
+  height: 100px;
+} */
+
+/* .debug{
+  background-color: rgba(255,0, 0, 0.2)
+  border: 1px solid black; 
+}
+
+.container{
+  max-width: 1380px;
+  margin: 0 auto;
+} */
